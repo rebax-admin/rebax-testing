@@ -1,19 +1,22 @@
-# Agent Testing on Rebax App
-## Agent Register
+# Agency Testing on Rebax App
+## Agency Register
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
-|1|App should take Pan Card from Agent and Verify |||
-|2|App should take email id from Agent and Verify |||
-|3|App should take phone no from Agent and Verify |||
-|4|App should take rera id from Agent and create task in Admin |||
-## Agent Forgot Password
+|1|App should take Pan Card from Agency and Verify |||
+|2|App should take email id from Agency and Verify |||
+|3|App should take phone no from Agency and Verify |||
+|4|App should take Representative name from Agency |||
+|5|App should take Representative phone number |||
+|6|App should take rera id from Agency and create task in Admin |||
+|7|App should take GST number from Agency |||
+## Agency Forgot Password
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Verify if the given email id is getting an OTP |||
 |2|Verify if the OTP is Validating |||
 |3|Verify if the New Password is saving |||
 |4|Verify if the New password is working to login |||
-## Agent CRM Page
+## Agency CRM Page
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Click on Add lead button and fill the form and verify if it works or not. Also check if the lead count is updating in Dashboard [make sure you refresh (refresh by changing This month to previous month and come back to this month tab) dashboard while checking] |||
@@ -43,8 +46,8 @@
 |25|Invoices Tab - check if all the invoices received are showing here |||
 |26|Check if all the invoices are expandable and shows Lead name, lead phone number, Invoice Date, Builder name, Project name, Invoice Stage and commission amount |||
 |27|Check if the download button fo invoice is working |||
-## Agent Editing Leads in Open Lead Page
-### Agent Customer Details
+## Agency Editing Leads in Open Lead Page
+### Agency Customer Details
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Check if you can edit full name and save and check it is saving |||
@@ -52,7 +55,7 @@
 |3|Check if you can edit Phone number and save and check it is saving |||
 |4|Check if you can add and edit alternative phone number and save and check it is saving |||
 |5|Check if you can add address and save and check it is saving |||
-### Agent Property Type
+### Agency Property Type
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Check if the dropdown for Property Type is working |||
@@ -66,7 +69,7 @@
 |8|Check if the location input box is populating locations when typed 3 or more letters |||
 |9|Check if all the sections are saving |||
 |10|Check if the property search is populating correct search results according to selected property type (Make sure there are properties available in the preferred range before testing) |||
-### Agent Advanced Transportation Preferences
+### Agency Advanced Transportation Preferences
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Enable and Disable is working and not effecting property search |||
@@ -80,7 +83,7 @@
 |9|Check the Distance Range Slider is working |||
 |10|Check if all the sections are saving |||
 |11|Check if the property search is populating correct search results according to selected Advanced Transportation Preferences (Make sure there are properties available in the preferred range before testing) |||
-### Agent Lead Management
+### Agency Lead Management
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Check if lead status dropdown is working |||
@@ -93,10 +96,11 @@
 |8|Check if the site visit log is updated in site visit logs |||
 |9|Check if the Site visit is showing in Dashboard in Unique Site Visits [make sure you refresh (refresh by changing This month to previous month and come back to this month tab) dashboard while checking] |||
 |10|Check if Lead source dropdown is working |||
+|11|Check if the Lead owner dropdown is working |||
 |11|Check if Interested projects search box is working and showing projects when typed 2 or more letters |||
 |12|Check if we can select multiple project from the list and being added when clicked on done |||
 |13|check if everything saving by clicking on save changes button and go back to CRM and come back to open lead page to verify |||
-#### Agent Property Search
+#### Agency Property Search
 ##### Unpaid user
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
@@ -144,43 +148,43 @@
 |8|Check if when selected the builder the Marked as status showing as same as the builders marked as status, change status in builder marked as status and check |||
 |9|Check when builder marked the lead as booked are we getting notification and is it navigating to same leads open lead page and check "Generate Invoice" buttons is visible now |||
 |10|change the builder from select builder dropdown and check that only when selected the builder with marked as booked status is showing "Generate Invoice" |||
-### Agent Upcoming Tasks
+### Agency Upcoming Tasks
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Check if all tasks are showing and able to edit those tasks and save them |||
-### Agent Registered Builders
+### Agency Registered Builders
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Check if it is showing all the builders who registered the lead are showing ||
 |2|Check if it showing the registered date |||
 |3|Check if you can go to Builder profile by clicking on builder and check everything is fine in the builder profile page |||
-### Agent Registered Projects
+### Agency Registered Projects
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Check if the all the Registered Projects are showing with images |||
 |2|Check if when clicked on the project it is navigating to project page |||
-### Agent Site Visit Logs
+### Agency Site Visit Logs
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Check if all the site visits are logging in this sections with Project name, Builder name and Time & Date  |||
-### Agent Feedback & History
+### Agency Feedback & History
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Check if add feedback is working |||
 |2|Check if the feedback is showing in the feedback tab |||
 |3|Check if the lead history is logging everything doing in the open lead page |||
-### Agent Delete Lead
+### Agency Delete Lead
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Check when clicked on Delete button, a popup opening to confirm action and when clicked in Delete button it should delete lead |||
-### Agent Add Task Button
+### Agency Add Task Button
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1| click on add task button and create a call reminder task and add task |||
 |2|Check if the call task is created in the Upcoming tasks section and also in Tasks page and the icon for it is call icon |||
 |3| click on add task button and create a site visit reminder task and add task |||
 |4|Check if the site visit task is created in the Upcoming tasks section and also in Tasks page and the icon for it is apartment icon |||
-### Agent Call and Whatsapp Buttons
+### Agency Call and Whatsapp Buttons
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Click call button and check if it is navigating to dialer app |||
@@ -193,7 +197,7 @@
 |8|Open feedback popup from call button and click on add task button and create a site visit reminder task and add task and check if the feedback popup is still open and same |||
 |9|Check if the site visit task is created in the Tasks page and the icon for it is apartment icon, Also check if tasks are created in open lead page in Upcoming tasks section |||
 |10|Check if Whatsapp button is navigating to whatsapp app |||
-## Agent Property Search Page
+## Agency Property Search Page
 ### Unpaid user
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
@@ -234,7 +238,7 @@
 |3|Check if when the like button is clicked it turns to read and then got CRM page and come back to property search page and check the Liked project is displaying on top |||
 |4|Check search by typing in projects name and check if it is working |||
 |5|Click filter button and check if all filters are working correctly |||
-## Agent Contacts Page
+## Agency Contacts Page
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|In Contacts Tab - Check if all the registered builders are visible with their status's |||
@@ -255,7 +259,7 @@
 |16|When expanded the log it should show call type, status and contact type |||
 |17|Check if the registered since date and no of your leads registered to builder are shown correctly |||
 |18|Check of search feature is working |||
-## Agent Tasks Page
+## Agency Tasks Page
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Click call button and check if it is navigating to dialer app |||
@@ -272,38 +276,42 @@
 |12|Click on calls tab and check if all the task in there are call tasks |||
 |13|Click on Site Visits tab and check if all the task in there are Site Visits tasks |||
 |14|Click on completed tasks and check all the tasks in there are completed tasks |||
-## Agent Dashboard
+## Agency Dashboard
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Click on this month and check if it is displaying correct stats in 1st numbers section and then check lead analytics section and source analytics sections |Issue|In Source analytics sections it is showing all available sources but it should only display source which are mentioned in leads |
 |2|Click on previous month tab and check if it is displaying correct stats in 1st numbers section and then check lead analytics section and source analytics sections |||
 |3|Click on this Year tab and check if it is displaying correct stats in 1st numbers section and then check lead analytics section and source analytics sections |||
 |4|Click on filter button and add custom dates and check if it is showing correct analytics and Bar Graphs |Issue|Not Showing bar graphs when using custom filters|
-|5|Click on download report icon and check if it is downloading ||| 
-## Agent Notification Tab
+|5|Check if filter by user in the filters is working |||
+|6|Click on download report icon and check if it is downloading ||| 
+## Agency Notification Tab
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Check if all notifications are working and navigating to correct pages |||
 |2|Check if Push notifications are working and are displayed on the mobile screen when notifications received |||
 |3|On top right corner click on 3 dots button and check if mark as all read button is working |Not Working|It is not marking all notifications as read in one go|
-## Agent Profile Settings Page
-### Agent Profile Edit
+## Agency Profile Settings Page
+### Agency Profile Edit
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
-|1|Click Edit button on top right and check if you are able to change Profile Image, Experience, About Me, State and City. Also Name and Agent ID should be un-editable |Issue|Unable to scroll the popup|
+|1|Click Edit button on top right and check if you are able to change Profile Image, Cover image, Experience, About Me, State and City. Also Name and Agent ID should be un-editable |Issue|Unable to scroll the popup|
 |2|Check if you are able to modify item in edit page and save them |||
-### Agent Upgrade Package
+### Agency Upgrade Package
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Click Upgrade Package and if it is navigating to Subscription packages page, check if you are able to navigate between monthly and yearly tabs |||
-|2|Check when clicked on upgrade package it is navigating to payment gateway with Rebax solutions private limited name on top |||
-### Agent Billing Summary
+|2|Check when clicked on upgrade now it is showing to add users |||
+|3|Check if + and - buttons are working |||
+|4|Check if the total amount is changing when adding users |||
+|5|Check when clicked on upgrade package it is navigating to payment gateway with Rebax solutions private limited name on top |||
+### Agency Billing Summary
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Click on Billing summary, Click Upgrade Package and if it is navigating to Subscription packages page |||
 |2|Check if you are able to navigate between This Year and Previous Year tabs |||
 |3|Click on an invoice and then click on download invoice and check if the invoice is downloading |||
-### Agent Configuration
+### Agency Configuration
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Click on configurations and go to the page, Click "+" icon in leads status and add a new lead status and click on save and check if it is saving |||
