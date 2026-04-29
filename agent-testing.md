@@ -276,7 +276,7 @@
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Click on this month and check if it is displaying correct stats in 1st numbers section and then check lead analytics section and source analytics sections |Issue|In Source analytics sections it is showing all available sources but it should only display source which are mentioned in leads |
-|2|Click on previous month tab and check if it is displaying correct stats in 1st numbers section and then check lead analytics section and source analytics sections |||
+|2|Click on previous month tab and check if it is displaying correct stats in 1st numbers section and then check lead analytics section and source analytics sections |Issue|New Sources added in the configuration section are not displaying in the Lead Status Bar Graph|
 |3|Click on this Year tab and check if it is displaying correct stats in 1st numbers section and then check lead analytics section and source analytics sections |||
 |4|Click on filter button and add custom dates and check if it is showing correct analytics and Bar Graphs |Issue|Not Showing bar graphs when using custom filters|
 |5|Click on download report icon and check if it is downloading ||| 
@@ -357,7 +357,7 @@
 |:--:|:--|:--:|:--|
 |1|Click on Ratings & Reviews and go to the page, check if all the reviews are showing |||
 |2|Click on filter button and check if the filter are working |||
-### Agent Builder Change Password
+### Agent Change Password
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Click on Change Password and go to the page, check if you are able to change the password |||
