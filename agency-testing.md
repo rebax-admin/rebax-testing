@@ -462,5 +462,5 @@
 |12|In Dashboard page, Check if the lead count and graphs are showing correct data. The count and graphs should include leads of the managers and sub-users assigned to him. |||
 |13|Go to Contacts Page, The Contacts tab and call logs tab should be visible. |Issue|Contacts tab is not displaying builder partnerships. |
 |14|Go to Profile page, Click on edit button, Agency manager should be able to see and edit Agency profile image, cover image, Agency experience, Agency about me |||
-|15|Agency Manager should be able to access Upgrade package, Billing Summary, Configurations, Manage Users, Builder Partnerships and Builder Ratings and Reviews |Issue|Banking Information should not be accessable to Agency Manager, Builder Partnerships are not accesable |
+|15|Agency Manager should be able to access Upgrade package, Billing Summary, Configurations, Manage Users, Builder Partnerships and Builder Ratings and Reviews |Issue|Banking Information should not be accessable to Agency Manager, Unable to access builder Partnerships |
 |16|Click on logout and check if it is working |||
