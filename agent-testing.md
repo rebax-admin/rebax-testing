@@ -36,13 +36,14 @@
 |18|Open feedback popup from feedback button and click on add task button and create a site visit reminder task and add task and check if the feedback popup is still open and same |||
 |19|Check if the site visit task is created in the Tasks page and the icon for it is apartment icon, Also check if tasks are created in open lead page in Upcoming tasks section |||
 |20|Check if Whatsapp button is navigating to whatsapp app |||
-|21|Check search box by typing lead names and it is showing appropriate results |||
-|22|Click filter button and check if all filters are working correctly |||
-|23|Click on download button after changing the filters and check if you are able to download only filtered leads |Issues|Need to edit the fields in the downloaded excel file|
-|24|Click on download sample excel link and download it and add all the details in fields marked with '*' and upload it and check if its uploading and adding leads in CRM correctly  |Issue|Need to change '*' fields and make fields changes|
-|25|Invoices Tab - check if all the invoices received are showing here |||
-|26|Check if all the invoices are expandable and shows Lead name, lead phone number, Invoice Date, Builder name, Project name, Invoice Stage and commission amount |||
-|27|Check if the download button fo invoice is working |||
+|21|Click on lead and expand the lead, Check if you are able to see source and Interested Project. |||
+|22|Check search box by typing lead names and it is showing appropriate results |||
+|23|Click filter button and check if all filters are working correctly |||
+|24|Click on download button after changing the filters and check if you are able to download only filtered leads |Issues|Need to edit the fields in the downloaded excel file|
+|25|Click on download sample excel link and download it and add all the details in fields marked with '*' and upload it and check if its uploading and adding leads in CRM correctly  |Issue|Need to change '*' fields and make fields changes|
+|26|Invoices Tab - check if all the invoices received are showing here |||
+|27|Check if all the invoices are expandable and shows Lead name, lead phone number, Invoice Date, Builder name, Project name, Invoice Stage and commission amount |||
+|28|Check if the download button fo invoice is working |||
 ## Agent Editing Leads in Open Lead Page
 ### Agent Customer Details
 | S.No | TestCase | Status | Notes |
@@ -136,14 +137,16 @@
 ||- Location - Check when clicked on share or on the location itself it is navigating to maps |||
 ||- Downloads - Check if all the items are downloading |||
 ||- Similar Properties - Check if we are able to navigate when clicked on view details button to the shown property correctly |||
-|3|Check if when the like button is clicked it turns to read and then got CRM page and come back to property search page and check the Liked project is displaying on top |||
+|3|Check if when the like button is clicked it turns to red and then go to CRM page and come back to property search page and check the Liked project is displaying on top |||
 |4|Check search by typing in projects name and check if it is working |||
 |5|Click filter button and check if all filters are working correctly |||
+||**Test Cases after lead is registered to Builder**|||
 |6|Come back to open lead page and into leads management section and check select Builder and Marked as items are visible after builders accepted your lead registrations |||
 |7|Check in select builder dropdown is showing 2 builder's the lead has been registered to |||
 |8|Check if when selected the builder the Marked as status showing as same as the builders marked as status, change status in builder marked as status and check |||
 |9|Check when builder marked the lead as booked are we getting notification and is it navigating to same leads open lead page and check "Generate Invoice" buttons is visible now |||
 |10|change the builder from select builder dropdown and check that only when selected the builder with marked as booked status is showing "Generate Invoice" |||
+|11|After generate Invoice button you should see "Created:" & "Last Modified:" |Add Feature|Add one more line "Lead Assigned to: 'Name of the staff member the lead is assigned to in Builder module.'" Ex: Lead Assigned to: Shiva - City Manager/Sales Manager/Sales Executive |
 ### Agent Upcoming Tasks
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
@@ -159,7 +162,7 @@
 |:--:|:--|:--:|:--|
 |1|Check if the all the Registered Projects are showing with images |||
 |2|Check if when clicked on the project it is navigating to project page |||
-### Agent Site Visit Logs
+### Agent Site Visit Logs (Shows only after adding Site Visit)
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
 |1|Check if all the site visits are logging in this sections with Project name, Builder name and Time & Date  |||
@@ -168,7 +171,7 @@
 |:--:|:--|:--:|:--|
 |1|Check if add feedback is working |||
 |2|Check if the feedback is showing in the feedback tab |||
-|3|Check if the lead history is logging everything doing in the open lead page |||
+|3|Check if the lead history is logging everything doing in the open lead page |Issue|When Site visit is added, it shows as Site Visit Scheduled, Instead change it to Site Visit Updated. Also When site visit is added it is creating 2 History items 1 with project name and other without project name. Remove without project name item. |
 ### Agent Delete Lead
 | S.No | TestCase | Status | Notes |
 |:--:|:--|:--:|:--|
