@@ -289,6 +289,8 @@
 |1|Check if all notifications are working and navigating to correct pages |||
 |2|Check if Push notifications are working and are displayed on the mobile screen when notifications received |||
 |3|On top right corner click on 3 dots button and check if mark as all read button is working |Not Working|It is not marking all notifications as read in one go|
+|4|Check if you are getting notifications for subscription payment reminder from 10 days remaining everyday until the subscription is expired. |Not working|We are not getting notifications for this. |
+|5|Check if you are getting "Payement Initiated" notifications for builder payments. 1 Notification when builder marks payment as done with "x" no of days. you should get a notification on the same date as builder marked the payment as done and you will recieve a "Payment Reminder" Notification after the "x" days are completed and asks agent to confirm the payment wether he recieved it or not. |Issue|In Payment Initiated notification change the description to "X" Marked payment as done. Payment expected to be debited in "x" days |
 ## Agent Profile Settings Page
 ### Agent Profile Edit
 | S.No | TestCase | Status | Notes |
